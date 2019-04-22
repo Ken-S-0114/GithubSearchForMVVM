@@ -1,6 +1,6 @@
 
-# Created by https://www.gitignore.io/api/swift,xcode,cocoapods,objective-c
-# Edit at https://www.gitignore.io/?templates=swift,xcode,cocoapods,objective-c
+# Created by https://www.gitignore.io/api/ruby,swift,xcode,macos,cocoapods,objective-c
+# Edit at https://www.gitignore.io/?templates=ruby,swift,xcode,macos,cocoapods,objective-c
 
 ### CocoaPods ###
 ## CocoaPods GitIgnore Template
@@ -9,6 +9,34 @@
 #           - Also handy if you have a large number of dependant pods
 #           - AS PER https://guides.cocoapods.org/using/using-cocoapods.html NEVER IGNORE THE LOCK FILE
 Pods/
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
 
 ### Objective-C ###
 # Xcode
@@ -74,6 +102,58 @@ iOSInjectionProject/
 
 ### Objective-C Patch ###
 
+### Ruby ###
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/spec/examples.txt
+/test/tmp/
+/test/version_tmp/
+/tmp/
+
+# Used by dotenv library to load environment variables.
+# .env
+
+# Ignore Byebug command history file.
+.byebug_history
+
+## Specific to RubyMotion:
+.dat*
+.repl_history
+*.bridgesupport
+build-iPhoneOS/
+build-iPhoneSimulator/
+
+## Specific to RubyMotion (use of CocoaPods):
+# We recommend against adding the Pods directory to your .gitignore. However
+# you should judge for yourself, the pros and cons are mentioned at:
+# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
+# vendor/Pods/
+
+## Documentation cache and generated files:
+/.yardoc/
+/_yardoc/
+/doc/
+/rdoc/
+
+## Environment normalization:
+/.bundle/
+/vendor/bundle
+/lib/bundler/man/
+
+# for a library or gem, you might want to ignore these files since the code is
+# intended to run in multiple environments; otherwise, check them in:
+# Gemfile.lock
+# .ruby-version
+# .ruby-gemset
+
+# unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
+.rvmrc
+
 ### Swift ###
 # Xcode
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
@@ -136,4 +216,4 @@ playground.xcworkspace
 /*.gcno
 **/xcshareddata/WorkspaceSettings.xcsettings
 
-# End of https://www.gitignore.io/api/swift,xcode,cocoapods,objective-c
+# End of https://www.gitignore.io/api/ruby,swift,xcode,macos,cocoapods,objective-c
